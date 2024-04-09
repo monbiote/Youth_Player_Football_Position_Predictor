@@ -26,8 +26,15 @@ By analyzing players' physical attributes and their correlation with on-field pe
 - **Data Analysis**: Statistical analysis and data visualization
 - **Machine Learning**: Implementation of diverse machine learning algorithms
 
-## Development
-This project is part of our journey in mastering data science and machine learning within a collaborative team setting. It underscores our expertise in data processing, analysis and modelling in solving complex problems.
+## Model Evaluation Steps
+- Ran a logistic regression model, a random forest model and then a Light GBM classifier
+- Identified most influential features within random forest model
+- The cross validation results showed that all the models performed similarily. Random forest has a slightly lower score for both cross-validation approaches, but the differences are marginal. We then performed hyperparameter tuning for the random forest and light GBM models to see if the accuracy improved in any of the models.
+- Then attempted an ensemeble approach (base estimator: random forest, final estimator: logistic regression) but this produced a lower F1 score.
+
+## Conclusion
+- After hyperparameter tuning, the random forest model exhibited the highest F1 score. Thus this model was used in the final prediction.
+- Best Hyperparameters: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 1000} F1 with best hyperparameters: 0.39031033882242083
 
 ## Installation and Usage
 Detailed instructions for setting up and running the project are provided, ensuring straightforward replication and comprehension.
