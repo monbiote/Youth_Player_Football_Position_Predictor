@@ -1,4 +1,4 @@
-# Football Position Predictions Project
+# Youth Football Player Position Predictions Project
 
 ## Barcelona School of Economics - Team Gracia
 
