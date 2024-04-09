@@ -12,7 +12,7 @@
 As a newly appointed data scientist team at a top tier football club our role is to leverage data analytics to enhance the team's talent development strategy. Leveraging data from FIFA 2022, this project aims to establish a robust classification model that can accurately recommend the optimal playing position for each youth player. 
 By analyzing players' physical attributes and their correlation with on-field performance, this project delivers actionable insights to coaching staff. This facilitates optimal player positioning and skill development, harnessing data-driven strategies to enhance team performance.
 
-## Core Competencies
+## Notebook Contents
 - **Data Preprocessing and Quality Assurance**: Implementation of rigorous data cleansing and preprocessing.
 - **Exploratory Data Analysis (EDA)**: Employing statistical and visualization techniques for insights.
 - **Feature Engineering**: Innovating in feature creation and selection (KNN)
