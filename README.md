@@ -36,6 +36,3 @@ By analyzing players' physical attributes and their correlation with on-field pe
 - After hyperparameter tuning, the random forest model exhibited the highest F1 score. Thus this model was used in the final prediction.
 - Best Hyperparameters: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 1000} F1 with best hyperparameters: 0.39031033882242083
 
-## Installation and Usage
-Detailed instructions for setting up and running the project are provided, ensuring straightforward replication and comprehension.
-
